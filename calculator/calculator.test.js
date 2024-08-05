@@ -37,3 +37,18 @@ test("minus 4 and 6 = -2", () => {
   test("dividing 121 and 11 = 11", () => {
     expect( calculate("/",121,11)).toBe(11)
   })
+
+  test("sq 5 should = 25", () => {
+    expect( calculate("sq",5)).toBe(25)
+  })
+
+  test("sq 3 should = 9", () => {
+    expect( calculate("sq",3,44)).toBe(9)
+  })
+  test("mutiply 124 56 = 6944", () => {
+    expect( calculate("%",124,56)).toBe(6944)
+  })
+
+  test("mutiply 124 56 = 6944", () => {
+    expect( calculate("🍕",-41414,2)).toBe(-82828)
+  })
