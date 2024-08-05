@@ -16,6 +16,8 @@
  * calculate('🍕', -41414, 2); // should throw an error since '🍕' is not a supported operator
  * ```
  */
+
+
 export function calculate(operator, firstNumber, secondNumber) {
   switch (operator) {
     case "+":
